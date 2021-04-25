@@ -13,20 +13,32 @@ mydb.commit()
 import mysql.connector as cn
 # mysql stuff
 mydb = cn.connect(
-    host="192.168.1.146",
+    host="192.168.1.123",
     port="3306",
     user="root",
     password="dhruv",
-    database="lol"
+    database="db1"
 )
 
 mycursor = mydb.cursor()
-
+"""
 def insert_generic(tablename, *args):
     # TODO: The values will change according to the insertion table,
     cmd = "INSERT INTO " + tablename + " (var1, var2, var3) VALUES (%s, %s, %s)"
     vals = (args[0], args[1], args[2])
     mycursor.execute(cmd, vals)
+"""
+
+def insert_generic(passlist:list):
+    for element in passlist:
+        element.strip()
+    # TODO: The values will change according to the insertion table,
+    cmd = "INSERT INTO " + passlist[0] + " (var1, var2, var3) VALUES (%s, %s, %s)"
+    vals = (passlist[1], passlist[2], passlist[3])
+    mycursor.execute(cmd, vals)
+    print(cmd, vals)
+    # TODO: do something else than this, add exception handling and get a more gracful result
+    done()
 
 def delete_generic(*args):
     # TODO: The values will change according to the deletetion table
@@ -35,3 +47,8 @@ def delete_generic(*args):
 
 def done():
     mydb.commit()
+
+
+if __name__ == "__main__":
+    insert_generic(["hello", "1", "test", "34"])
+    done()
