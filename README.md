@@ -2,25 +2,25 @@
 
 Building hands-on projects will help you gain practical coding skills. One step at a time, you'll be putting your theoretical knowledge to use and build an impressive portfolio. If you are an experienced Python Developer, You might have heard as well as searched for this question "What are some python projects for beginners and those at an intermediate skill-level and Which projects should I work on to gain real time experience?". In here, you'll find example projects with step-by-step instructions, tutorials and source code that will take you through building some cool, interesting, unique and real-world Python projects, from scratch. A Curated List of Python Projects for Beginners, Intermediate and Advanced Level Programmers are
 
-[1. Bitcoin Price Notifications using Python](#1.-bitcoin-price-notifications-using-python)
+[1. Bitcoin Price Notifications using Python](#bitcoin-price-notifications-using-python)
 
-[2. Crawl Wikipedia Pages with Python](#2.-crawl-wikipedia-pages-with-python)
+[2. Crawl Wikipedia Pages with Python](#crawl-wikipedia-pages-with-python)
 
-[3. Python Face Recognition Project ](#3.-python-face-recognition-project)
+[3. Python Face Recognition Project ](#python-face-recognition-project)
 
-### 1. Bitcoin Price Notifications using Python
+### Bitcoin Price Notifications using Python
 
 Summary of this Project: In this Project, You'll learn about HTTP requests and how to send them using the requests library. You will also learn about webhooks and how to use them to connect your Python app to external services like phone notifications.
     
 Tutorial: [Bitcoin Price Notifications Project by Real Python](https://realpython.com/python-bitcoin-ifttt)
     
-### 2. Crawl Wikipedia Pages with Python
+### Crawl Wikipedia Pages with Python
 
 Summary: Learn how to build a basic web-scraping app with python that scrapes Wikipedia pages and follows random links endlessly to simulate a web crawler. You can expand this project into many creative ideas, for example, you can use it to verify links on your websites by crawling all of them and notifying you when a dead link is found.
 
 Tutorial: [Crawl Wikipedia Pages with Python Project by FreeCodeCamp](https://www.freecodecamp.org/news/scraping-wikipedia-articles-with-python)
 
-### 3. Python Face Recognition Project
+### Python Face Recognition Project
 
 Summary: This is a fun intermediate python project. This Face Recognition project detects faces and places a box around it and identifies the face based on those in a given list. It works by analyzing a photo and comparing it to the faces in the list to determine if it's a match or if it's an unknown identity. A few python modules are required to download in order to complete this project and have it run properly.
 
