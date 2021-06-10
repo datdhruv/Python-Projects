@@ -1,3 +1,11 @@
+'''
+Overview:
+    1. Get the list of all fiat currencies (govt backed and recognized currencies)
+        and save it to a list
+    2. Do the same for the crypto by substracting the list of fiats from ALL currencies
+    3. Get data on the price of each crypto with respect to the fiat
+    4. Colorise and print!
+'''
 import requests
 from colorama import init as color_init, Fore
 color_init()
@@ -43,8 +51,8 @@ def get_price(crypto, base):
         print("Check inputs")
 
 
-crp = input("Enter crypto: ")
-fiat = input("ENter fiat currency: ")
+#crp = input("Enter crypto: ")
+#fiat = input("ENter fiat currency: ")
 
-get_price(crp, fiat)
-#get_price("ETH", "USD")
+#get_price(crp, fiat)
+get_price("ETH", "USD")
