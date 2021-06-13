@@ -17,8 +17,10 @@ parsed_args = parser.parse_args()
 
 def main():
     #GetData.get_price(parsed_args.Crpyto, parsed_args.Fiat_Currency)
+    print()
     tprint(parsed_args.Crypto, font="rand")
     print(GetData.get_price(parsed_args.Crypto, parsed_args.Fiat))
+    print()
 
 if __name__=="__main__":
     main()
