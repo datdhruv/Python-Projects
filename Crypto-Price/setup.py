@@ -36,7 +36,7 @@ setup(
     'chardet==4.0.0',
     'colorama==0.4.4',
     'idna==2.10',
-    'requests==2.25.1',
+    'requests==2.31.0',
     'urllib3==1.26.5'
     ],
 
