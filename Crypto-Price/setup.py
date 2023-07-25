@@ -32,7 +32,7 @@ setup(
     include_package_data = True,
     install_requires = [
     'art==5.2',
-    'certifi==2022.12.7',
+    'certifi==2023.7.22',
     'chardet==4.0.0',
     'colorama==0.4.4',
     'idna==2.10',
